@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   padding: 0;
   margin: 0;
@@ -6,27 +10,79 @@ body {
 
 header {
   background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230210161917-01-japan-never-traveler-culture-tokyo.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp);
-  height: 300px 300px;
+  background-color: black;
+  height: 10vh;
   background-size: cover;
   background-position: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-nav {
+h1 {
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 50px;
+  margin-bottom: 50px;
+text-align: center;
+  border: 5px solid;
+}
+
+.menu {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  
+  justify-content: space-around;
   align-items: center;
-  height: 180px;
+  text-align: center;
 }
 
-menu a {
-  background-color: darkslategrey;
-  border-radius: 6px;
-  padding: 6px;
-  height: 10px;
-  width: 80%;
-  font-size: 1rem;
+.menu a {
+  margin: 10px;
+  background-color:bisque;
+  border-radius: 1.5rem;
   text-decoration: none;
+  color:darkslategrey;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.wrap {
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+  }
+
+.wrap #Japan p{
+  margin: auto;
+background-color: grey;
+width: 80%;
+padding: 20px;
+align-items: center;
+color: black;
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+font-size: large;
+text-align: center;
+border-radius: 20px;
+
+
+
+
+
+ 
+}
+
+
+
+.heroImage {
+  display: flex;
+
+  background-image: url(https://images.unsplash.com/photo-1480796927426-f609979314bd?q=80&w=2300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  
 }
