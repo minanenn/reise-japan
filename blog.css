@@ -28,6 +28,37 @@ h1, h2 {
   text-align: center;
 }
 
+
+
+nav h1{
+  position: relative;  }
+  
+  nav h1:hover {
+  color:blue;
+  
+  }
+  
+  nav a::after {
+    text-decoration-line: underline;
+    content: '';
+    height: 3px;
+    width: 0;
+color: blue;  
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 150ms ease-in-out;
+  }
+  
+  nav h1:hover::after {
+    width: 100%;
+  }
+  
+  
+
+
+
+
 .menu {
   display: flex;
   justify-content: space-evenly;
